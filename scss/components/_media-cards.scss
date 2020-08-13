@@ -1,0 +1,10 @@
+.media-cards {
+  $root: &;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__item ~ #{$root}__item {
+    margin-left: 1.875rem;
+  }
+}

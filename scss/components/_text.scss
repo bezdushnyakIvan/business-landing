@@ -1,0 +1,17 @@
+.text {
+   color: #646667;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 300;
+   font-size: var(--text-fs);
+   line-height: var(--text-lh);
+
+   &_size_large {
+      --text-fs: 20px;
+      --text-lh: 36px;
+   }
+
+   &_size_small {
+      --text-fs: 16px;
+      --text-lh: 32px;
+   }
+}

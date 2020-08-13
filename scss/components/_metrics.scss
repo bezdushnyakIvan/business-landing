@@ -1,0 +1,39 @@
+.metrics {
+  &__side,
+  &__left,
+  &__right {
+    display: flex;
+  }
+
+  &__list {
+    display: grid;
+    grid-column-gap: 1.875rem;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-bottom: 2.5rem;
+  }
+
+  &__left {
+    justify-content: flex-start;
+  }
+
+  &__right {
+    justify-content: flex-end;
+  }
+
+  &__text {
+    color: #646667;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 300;
+
+    width: 670px;
+    margin-bottom: 60px;
+  }
+
+  &__item ~ &__item {
+    margin-left: 1.875rem;
+  }
+}

@@ -1,0 +1,23 @@
+.metric {
+  text-align: center;
+
+  &__value {
+    color: #007397;
+
+    font-family: "PT Serif", serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 54px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__description {
+    color: #aec3d4;
+
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+}

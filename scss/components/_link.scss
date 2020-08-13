@@ -1,0 +1,34 @@
+.link {
+   color: var(--link-clr);
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   font-size: var(--link-fs);
+   line-height: var(--link-lh);
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   text-decoration: none;
+
+   transition: color 0.3s;
+
+   &__postfix-img {
+      margin-left: 0.625rem;
+   }
+
+   &:hover {
+      color: var(--link-clr-hover);
+   }
+
+
+   &_theme_primary {
+      --link-clr: #646667;
+      --link-clr-hover: #323333;
+      --link-fs: 12px;
+      --link-lh: 40px;
+   }
+
+   &_theme_secondary {
+      --link-clr: #007397;
+      --link-fs: 16px;
+      --link-lh: 16px;
+   }
+}

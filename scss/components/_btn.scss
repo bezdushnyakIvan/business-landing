@@ -1,0 +1,40 @@
+.btn {
+   background-color: var(--btn-bg-clr);
+   color: var(--btn-clr);
+
+   font-family: "Montserrat", sans-serif;
+   font-size: 16px;
+   line-height: 16px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+
+   border: none;
+   padding: 1.25rem;
+   cursor: pointer;
+
+   &:focus {
+      outline: none;
+   }
+   
+   &_selected {
+      color: var(--btn-selected-clr);
+   }
+
+   &_type_link {
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+   }
+
+   &_theme_primary {
+      --btn-bg-clr: #007397;
+      --btn-clr: #eee;
+   }
+
+   &_theme_clear {
+      --btn-bg-clr: transparent;
+      --btn-clr: #D3CFCE;
+      --btn-selected-clr: #007397;
+   }
+}

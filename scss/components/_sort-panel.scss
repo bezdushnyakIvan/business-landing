@@ -1,0 +1,9 @@
+.sort-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__btn {
+    max-width: 150px;
+  }
+}

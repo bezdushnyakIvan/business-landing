@@ -1,0 +1,38 @@
+.first-screen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__title {
+    font-family: PT Serif, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: var(--white);
+    text-shadow: 0 3px 1px rgba(0, 0, 0, 0.6);
+
+    max-width: 770px;
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+  }
+
+  &__wrapper,
+  &__text {
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+    max-width: 970px;
+
+    text-align: center;
+  }
+}

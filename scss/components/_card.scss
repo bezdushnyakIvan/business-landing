@@ -1,0 +1,45 @@
+.card {
+  &__wrapper {
+    position: relative;
+
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__heading,
+  &__type {
+    padding: 0 1.875rem;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: var(--white);
+
+    position: absolute;
+    left: 0;
+  }
+
+  &__heading {
+    font-size: 24px;
+    line-height: 32px;
+
+    top: 230px;
+  }
+
+  &__type {
+    font-size: 12px;
+    line-height: 16px;
+
+    top: 30px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+}

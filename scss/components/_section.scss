@@ -1,0 +1,29 @@
+.section {
+  &__heading-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__heading {
+    color: #3c3f3d;
+
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+
+  &__sort-panel {
+    width: 400px;
+  }
+
+  &__inner {
+    margin-top: 40px;
+  }
+
+  &__btn {
+    min-width: 270px;
+  }
+}

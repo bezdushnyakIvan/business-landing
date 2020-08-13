@@ -1,0 +1,10 @@
+.main {
+   &__first-screen,
+   &__section {
+      margin-bottom: 60px;
+   }
+
+   &__section:last-of-type {
+      margin-bottom: 0;
+   }
+}
